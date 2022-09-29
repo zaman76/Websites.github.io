@@ -1,0 +1,185 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+nav{
+    background-color: black;
+    padding: 7px;
+}
+
+nav > ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 20px;
+    padding: 0px 10px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: rgb(255, 241, 241);
+    font-size: 20px;
+}
+
+nav li:hover{
+    background-color: rgb(43, 156, 221);
+    
+}
+
+nav > ul >li:hover >ul{
+    display: block;
+}
+
+
+
+h1{
+    font-size: 50px;
+}
+
+.green{
+    color: rgb(31, 161, 70);
+}
+
+.container{
+    display: flex;
+    margin-top: 90px;
+    margin-bottom: 200px;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 2%;
+    margin-top: 50px;
+    margin-left: 10px;
+    padding-top: 80px;
+    
+}
+.main-img img{
+    width: 65%;
+    float: right;
+    margin-top: 40px;
+    padding-right: 10%;    
+}
+
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(39, 121, 18), rgb(90, 231, 85));
+    font-weight: 700;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    
+}
+
+
+.recipe{
+    margin-top: 18%;
+}
+
+.recipe-text{
+    text-align: center ;
+    margin-left: 8%;
+    padding-bottom: 20px;
+    
+}
+
+.rec{
+    display:flex;
+    flex-wrap: wrap;
+    
+    margin-bottom: 5%;
+    margin-left: 20%;
+    margin-right: 15%;
+    
+}
+
+
+.rec-item{
+    width: 18%;
+    margin-top: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.rec-item img{
+    height: 200px;
+    width: 200px;
+    border-radius: 30px;
+    
+}
+
+.list-title{
+    /* margin-left: 2%; */
+    text-align: center;
+    background-image: linear-gradient(rgb(18, 79, 158), rgb(60, 184, 233));
+    font-weight: 700;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: white;
+    
+}
+
+.followers{
+    display: flex;
+    margin-bottom: 40px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 80px rgb(224, 224, 224);
+}
+
+.fol-items{
+    
+    font-weight:bold;
+    margin-left: 20%;
+}
+
+.feedback{
+    display: flex;
+   
+}
+
+.fed{
+    width: 60%;
+    padding-left: 8%;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-top: 50px;
+}
+
+.fed-form{
+    border-radius: 15px;
+    background-color: rgb(252, 243, 232);
+    box-shadow: 10px 10px 40px gray;
+    margin-right: 5%;
+    padding-bottom: 3%;
+}
+
+
+
+
+
+footer{
+    background-color: rgb(110, 206, 212);
+    margin-top: 10%;
+    padding-left: 40%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 0;
+}
+footer h2{
+    padding-left: 120px;
+    
+}
+
+.orange{
+    color: tomato;
+}
+
